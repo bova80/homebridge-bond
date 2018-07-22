@@ -71,7 +71,7 @@ class BondPlatform {
     accessory
       .addService(Service.Fan, device.room + " " + device.type);
     accessory
-      .addService(Service.Switch, "Reverse " + device.room + " " + device.type);
+      .addService(Service.Switch, "Light " + device.room + " " + device.type);
     this.setupObservers(accessory);
 
     accessory
@@ -120,7 +120,7 @@ class BondPlatform {
       accessory.getService(Service.Switch)
         .getCharacteristic(Characteristic.On)
         .on('set', function(value, callback) {
-          let command = bond.commandForName(fan, "Reverse");
+          let command = bond.commandForName(fan, "Light Toggle");
 
           bond.sendCommand(that.session, command, fan)
             .then(() => {

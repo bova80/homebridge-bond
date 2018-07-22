@@ -1,39 +1,103 @@
 {
-  "name": "homebridge-bond",
-  "version": "0.1.0",
-  "description": "A homebridge plugin to control your IR/RF devices via BOND.",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
-    "clean": "rimraf dist"
+  "_args": [
+    [
+      {
+        "raw": "homebridge-bond",
+        "scope": null,
+        "escapedName": "homebridge-bond",
+        "name": "homebridge-bond",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Corey"
+    ]
+  ],
+  "_from": "homebridge-bond@latest",
+  "_id": "homebridge-bond@0.1.0",
+  "_inCache": true,
+  "_location": "/homebridge-bond",
+  "_nodeVersion": "8.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/homebridge-bond_0.1.0_1521947433573_0.0857311072954321"
   },
+  "_npmUser": {
+    "name": "edc1591",
+    "email": "e@edc.me"
+  },
+  "_npmVersion": "5.7.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "homebridge-bond",
+    "scope": null,
+    "escapedName": "homebridge-bond",
+    "name": "homebridge-bond",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-bond/-/homebridge-bond-0.1.0.tgz",
+  "_shasum": "b50fcad731c6bd9be7b6703c6c69c91cd1bea51f",
+  "_shrinkwrap": null,
+  "_spec": "homebridge-bond",
+  "_where": "/Users/Corey",
+  "bugs": {
+    "url": "http://github.com/edc1591/homebridge-bond/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "description": "A homebridge plugin to control your IR/RF devices via BOND.",
+  "devDependencies": {
+    "@types/request-promise": "^4.1.41",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.7.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-fPhxkoJz62wn/fbsYvjpKk+i7FasHAzcZ09jf/7uYG/hT+prWDCoRmRo3/PcubGW2oAyYOMEwioL9WZFcN4aaA==",
+    "shasum": "b50fcad731c6bd9be7b6703c6c69c91cd1bea51f",
+    "tarball": "https://registry.npmjs.org/homebridge-bond/-/homebridge-bond-0.1.0.tgz",
+    "fileCount": 9,
+    "unpackedSize": 23324
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "gitHead": "430193ff35b456e68c95cba5e3469d3437028080",
+  "homepage": "https://github.com/edc1591/homebridge-bond#readme",
   "keywords": [
     "homebridge-plugin",
     "bond",
     "rf",
     "ir"
   ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "edc1591",
+      "email": "e@edc.me"
+    }
+  ],
+  "name": "homebridge-bond",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/edc1591/homebridge-bond.git"
   },
-  "bugs": {
-    "url": "http://github.com/edc1591/homebridge-bond/issues"
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build"
   },
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
-  },
-  "devDependencies": {
-    "@types/request-promise": "^4.1.41",
-    "rimraf": "^2.6.2",
-    "typescript": "^2.7.1"
-  },
-  "dependencies": {
-    "bluebird": "^3.5.1",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2"
-  }
+  "version": "0.1.0"
 }
