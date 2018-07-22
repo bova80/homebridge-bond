@@ -9,8 +9,7 @@
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
-      },
-      "/Users/Corey"
+      }
     ]
   ],
   "_from": "homebridge-bond@latest",
